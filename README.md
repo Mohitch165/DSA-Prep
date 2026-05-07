@@ -14,7 +14,7 @@ A modern interactive dashboard for tracking your DSA interview prep progress.
 ## Quick start
 
 ```bash
-cd /Users/mohitchouhan/DSAPrep/dsa-tracker
+cd /DSAPrep/dsa-tracker
 npm install
 npm run dev
 ```
