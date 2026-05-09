@@ -6,9 +6,6 @@ A modern interactive dashboard for tracking your DSA interview prep progress.
 
 - **React 18** + **TypeScript** + **Vite**
 - **Tailwind CSS** with custom dark theme
-- **shadcn-style** UI primitives (Card, Button, Badge, Dialog) using Radix UI
-- **GSAP + ScrollTrigger** for roadmap timeline animations
-- **lucide-react** icons
 - **localStorage** for offline-first persistence
 
 ## Quick start
@@ -19,12 +16,10 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
-
 ## Features
 
 - **Dashboard** — total solved, weekly count, Blind 75 progress, donut chart, phase progress, pattern progress, 7-day activity heatmap
-- **Problems** — 230 problems with multi-filter (company, pattern, phase, difficulty, status, frequency slider, Blind 75 toggle), sortable columns, inline status updates, per-problem notes
+- **Problems** — 350+ problems with multi-filter (company, pattern, phase, difficulty, status, frequency slider, Blind 75 toggle), sortable columns, inline status updates, per-problem notes
 - **Roadmap** — GSAP scroll-triggered phase reveals with live progress bars per week
 - **Patterns** — 28 patterns with progress per pattern, click to filter
 - **Companies** — 39 companies grouped by tier, click to filter
@@ -58,3 +53,5 @@ src/
     ├── NotesModal.tsx
     └── ui/   (shadcn-style primitives)
 ```
+
+Drop a star if you find it helpful!
