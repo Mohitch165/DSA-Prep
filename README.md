@@ -1,4 +1,4 @@
-# DSA Mastery Tracker
+# DSA Prep Roadmap
 
 A modern interactive dashboard for tracking your DSA interview prep progress.
 
